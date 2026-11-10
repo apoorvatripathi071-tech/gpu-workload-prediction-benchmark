@@ -1,0 +1,48 @@
+{
+  "target": "util",
+  "seed": 42,
+  "in_distribution": [
+    {
+      "comparison": "hybrid vs cnn",
+      "median_abs_error_a": 21.240215003490448,
+      "median_abs_error_b": 21.533797308802605,
+      "lower_median_error": "hybrid",
+      "wilcoxon_statistic": 21665526.5,
+      "p_value": 0.14818017791924235,
+      "significant_at_0.05": false,
+      "n_paired_samples": 9390
+    },
+    {
+      "comparison": "hybrid vs lstm",
+      "median_abs_error_a": 21.240215003490448,
+      "median_abs_error_b": 21.715974062681198,
+      "lower_median_error": "hybrid",
+      "wilcoxon_statistic": 18283985.5,
+      "p_value": 1.6706521677150056e-46,
+      "significant_at_0.05": true,
+      "n_paired_samples": 9390
+    }
+  ],
+  "transfer": [
+    {
+      "comparison": "hybrid vs cnn",
+      "median_abs_error_a": 6.412426009774208,
+      "median_abs_error_b": 6.106801331043243,
+      "lower_median_error": "cnn",
+      "wilcoxon_statistic": 67368278232.5,
+      "p_value": 1.0037016767221608e-06,
+      "significant_at_0.05": true,
+      "n_paired_samples": 521150
+    },
+    {
+      "comparison": "hybrid vs lstm",
+      "median_abs_error_a": 6.412426009774208,
+      "median_abs_error_b": 5.848665535449982,
+      "lower_median_error": "lstm",
+      "wilcoxon_statistic": 60149648404.0,
+      "p_value": 0.0,
+      "significant_at_0.05": true,
+      "n_paired_samples": 521150
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# Raw traces and processed datasets (~13GB) — regenerate via src/download_data.py
+# then src/preprocess_philly.py / src/preprocess_alibaba.py (see README)
+data/
+
+__pycache__/
+*.pyc
