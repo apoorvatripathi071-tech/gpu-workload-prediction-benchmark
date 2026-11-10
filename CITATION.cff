@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Leakage-Aware Cross-Dataset Evaluation of GPU Workload Prediction: When Do Deep Sequence Models Actually Beat Simple Baselines?"
+authors:
+  - family-names: "Tripathi"
+    given-names: "Apoorva"
+version: 1.0.0
+date-released: 2026-11-09
+repository-code: "https://github.com/apoorvatripathi071-tech/gpu-workload-prediction-benchmark"
+abstract: "Benchmark code for a leakage-aware, cross-dataset study of GPU workload prediction on the Microsoft Philly and Alibaba PAI GPU v2020 production traces: harmonized machine-history preprocessing, CNN/LSTM/Hybrid models, naive/Ridge/XGBoost/ARIMA baselines, multi-seed confidence intervals, paired significance testing, and a leakage-safe target-history lag-feature experiment."
