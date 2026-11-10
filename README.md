@@ -1,5 +1,7 @@
 # Leakage-Aware Cross-Dataset Evaluation of GPU Workload Prediction
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24096961.svg)](https://doi.org/10.5281/zenodo.24096961)
+
 Code artifact for the paper *"Leakage-Aware Cross-Dataset Evaluation of GPU Workload Prediction: When Do Deep Sequence Models Actually Beat Simple Baselines?"* (Apoorva Tripathi).
 
 Benchmarks CNN / LSTM / Hybrid CNN-LSTM models against naive persistence, Ridge, XGBoost, and an ARIMA target-history reference on two public production GPU traces (Microsoft Philly, Alibaba PAI GPU v2020), under a leakage-safe, harmonized machine-history representation and zero-shot cross-dataset transfer.
